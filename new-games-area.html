@@ -9,14 +9,40 @@
 /* FUN BACKGROUND ANIMATION */
 body {
   font-family: 'Comic Sans MS', sans-serif;
-  background-color: Blue
- 
+  background-color: Blue;
+  color: white; /* general text color */
 }
 
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* Make all links white */
+a {
+  color: white;
+  text-decoration: none; /* remove underline if you want */
+}
+
+/* Optional: make links look like buttons if you want */
+a.download-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: white; /* ensures link text stays white */
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+a.download-btn:hover {
+  background: linear-gradient(135deg, #42f5b3, #f5e142);
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* BUTTON STYLING */
@@ -39,36 +65,4 @@ button:hover {
   background: linear-gradient(45deg, #42f5b3, #f5e142);
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
-
-/* LINKS LOOKING LIKE BUTTONS */
-a.download-btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background: linear-gradient(135deg, #ff6ec4, #7873f5);
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-a.download-btn:hover {
-  background: linear-gradient(135deg, #42f5b3, #f5e142);
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
-}
-
-/* HEADINGS */
-h1, h2, h3 {
-  color: #fff;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-  /* Make all text white */
-  body {
-    color: white;
-  }
 </style>
-
