@@ -8,6 +8,7 @@
 <a href="https://hrw2013.github.io/unblocked-games/Old-Games-Collection-By-ChatGPT.html">Old Games Made By ChatGPT</a> <br/>
 <p> Hello click above to find all of the games I have been making so far. I hope you enjoy! </p>
 
+<a href="https://github.com/hrw2013/unblocked-games/issues">Report A Bug</a> <br/>
 <style>
   /* Page background */
 body {
