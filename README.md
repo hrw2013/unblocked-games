@@ -2,4 +2,4 @@
 
 <a href="https://hrw2013.github.io/games/new-games-area.html">Main Games Area</a>
 <p> Hello click above to find all of the games I have been making so far. I hope you enjoy! </p>
-<p> Admin? Go <a href="https://hrw2013.github.io/games/admin-login.html">here</a> </p>
+
