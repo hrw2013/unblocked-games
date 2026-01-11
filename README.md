@@ -1,4 +1,8 @@
 <h1> Unblocked html Games </h1>
+<div id="site-banner">
+  New Game: <a href="https://hrw2013.github.io/unblocked-games/block-blast.html">Block Blast</a>
+  <span id="close-banner">✖</span>
+</div>
 
 <a href="https://hrw2013.github.io/unblocked-games/new-games-area.html">Main Games Area</a> <br/>
 <a href="https://hrw2013.github.io/unblocked-games/Old-Games-Collection-By-ChatGPT.html">Old Games Made By ChatGPT</a> <br/>
