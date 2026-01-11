@@ -97,23 +97,6 @@ button:hover {
   opacity: 0.8;
 }
 
-#close-banner:hover {
-  opacity: 1;
-}
-
 </style>
 
-<script>
-  const banner = document.getElementById("site-banner");
-  const closeBtn = document.getElementById("close-banner");
-
-  if (localStorage.getItem("bannerClosed") === "true") {
-    banner.style.display = "none";
-  }
-
-  closeBtn.onclick = () => {
-    banner.style.display = "none";
-    localStorage.setItem("bannerClosed", "true");
-  };
-</script>
 
