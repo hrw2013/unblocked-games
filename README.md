@@ -56,5 +56,44 @@ p {
   line-height: 1.6;
   color: #d9f6ff;
 }
+#site-banner {
+  background: linear-gradient(90deg, #ff4d4d, #ff9900);
+  color: white;
+  padding: 12px 40px 12px 16px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#close-banner {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+#close-banner:hover {
+  opacity: 1;
+}
 
 </style>
+
+<script>
+  const banner = document.getElementById("site-banner");
+  const closeBtn = document.getElementById("close-banner");
+
+  if (localStorage.getItem("bannerClosed") === "true") {
+    banner.style.display = "none";
+  }
+
+  closeBtn.onclick = () => {
+    banner.style.display = "none";
+    localStorage.setItem("bannerClosed", "true");
+  };
+</script>
+
